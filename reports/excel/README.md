@@ -17,50 +17,70 @@ It converts large, raw insurance claim datasets into actionable financial and op
 ## 🔹 Architecture
 
 Raw Claims Data (Excel / CSV)
+
         │
         ▼
+        
 Clean Aggregated Datasets
+
         │
         ▼
+        
 Python Data Processing (pandas)
+
         │
         ▼
+        
 Excel Dashboards & Matrix Reports
+
         │
         ▼
+        
 Executive & Operational Insights
 
 
 ## 🔹 Dashboards & Reports
 
 • Executive Summary (KPIs & trends)
+
 • Insurance Payment per Month (2022–2025)
+
 • Submitted Claims per Month
+
 • Year-End Account Summary
+
 • Doctor vs Insurance Monthly Performance
+
 • Rejection Ratio Analysis
+
 
 📸 Dashboard previews available in reports/images/
 
 
 ## 🔹 Tools & Technologies
 • Python (pandas, numpy)
+
 • Excel (Advanced formulas, pivots, slicers, dashboards)
+
 • Git & GitHub
+
 • Power BI (optional extension)
 
 
 ## 🔹 Data Compliance
 
 • All datasets anonymised
+
 • No patient identifiers included
+
 • Portfolio-safe & client-safe
 
 
 ## 🔹 Use Cases
-
 • Revenue Cycle Management (RCM)
-• Insurance Reconciliation
-• Financial Audits
-• Healthcare Operations Analytics
 
+• Insurance Reconciliation
+
+• Financial Audits
+
+• Healthcare Operations Analytics
