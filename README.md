@@ -1,5 +1,5 @@
 # Healthcare_Insurance_Claims_Analytics
-Real-world healthcare insurance claims analysis using Python, Excel, and Power BI. Includes data cleaning, exploratory analysis, cost trend identification, and KPI dashboards. The dataset is anonymised and reflects practical healthcare KPO use cases.
+Real-world healthcare insurance claims analysis MIS reporting using Python, Excel, and Power BI. Includes data cleaning, exploratory analysis, cost trend identification, and KPI dashboards. The dataset is anonymised and reflects practical healthcare KPO use cases.
 ## 🎥 Live Dashboard Demo (Ngrok)
 
 ▶️ Click to watch the full dashboard walkthrough:
