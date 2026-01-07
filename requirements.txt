@@ -1,0 +1,16 @@
+pandas
+numpy
+plotly
+streamlit
+pyngrok
+openpyxl
+ngrok
+os
+xlrd
+jupyter
+xlsxwriter
+scikit-learn
+matplotlib
+seaborn
+requests
+beautifulsoup4

@@ -5,7 +5,7 @@ Initial package initializer.
 Prepared for future modular expansion.
 """
 
-from .dashboard import *
+from ..src.dashboard import *
 
 __version__ = "1.0.0"
 __author__ = "Healthcare Analytics Team"
