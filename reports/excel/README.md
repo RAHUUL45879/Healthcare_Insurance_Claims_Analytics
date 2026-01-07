@@ -7,8 +7,11 @@ It converts large, raw insurance claim datasets into actionable financial and op
   ## 🔹 What This Project Solves
   
 • Tracks Claimed, Received, Denied, and Pending amounts
+
 • Identifies revenue leakage & delayed payments
+
 • Measures rejection ratios by year, payer, and doctor
+
 • Enables monthly, yearly, and multi-dimensional analysis
 
 ## 🔹 Architecture
@@ -60,3 +63,4 @@ Executive & Operational Insights
 • Insurance Reconciliation
 • Financial Audits
 • Healthcare Operations Analytics
+
