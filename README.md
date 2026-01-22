@@ -18,15 +18,15 @@ The focus is on analytics skills, workflow design, and reporting logic, not on r
 
 **Revenue Cycle Management (RCM):-** Represents the financial lifecycle of a healthcare service, from patient registration to final payment or denial resolution.
 
-Why analytics matters in RCM:
+**Why analytics matters in RCM:**
 
-Identifies revenue leakage
+• Identifies revenue leakage
 
-Tracks payer performance
+• Tracks payer performance
 
-Monitors denial and pending trends
+• Monitors denial and pending trends
 
-Supports operational and financial decision-making
+• Supports operational and financial decision-making
 
 ## Revenue Cycle Management (RCM) Workflow
 <img width="1080" height="1080" alt="image" src="https://github.com/user-attachments/assets/3877c340-0845-4d42-a327-14e52b65e99a" />
@@ -50,7 +50,7 @@ Supports operational and financial decision-making
 8. Resubmission Denied Amount RA 1: Resubmitted Amount1 - Resubmission Paid Amount
 , after that filter- zeros
  
-9. Resubmitted Amount2: Filter blank and then equal the amount to dthe enied amount1
+9. Resubmitted Amount2: Filter blank and then equal the amount to the denied amount1
  
 10. RA Transaction ID2: Remove Blank
  
@@ -60,42 +60,74 @@ Supports operational and financial decision-making
 
 
 ├── DATE_OF_SERVICE
+
 ├── SUBMITTED_DATE
+
 ├── RA_RECEIVE_DATE
+
 ├── SUBMITTED_AMOUNT
+
 │   ├── [Rule 1]  blank = 0
+
 │   ├── [Rule 2] If value = 0 or blank → Delete all columns' values for that row
+
 │
 ├── PAYMENT_REFERENCE_NO
+
 │   ├── [Rule 3] Remove blank
+
 │   ├── [Rule 4] If value = 0 or blank → Delete all columns' values for that row
+
 │
 ├── PAID_AMOUNT
+
 │   ├── [Rule 5] If > SUBMITTED_AMOUNT → Set = SUBMITTED_AMOUNT 
+
 │   ├── [Rule 6] If blank → Replace with 0
+
 │
 ├── DENIED_AMOUNT
+
 │   ├── [Rule 7] = SUBMITTED_AMOUNT - PAID_AMOUNT
+
 │   └── Filter if zero
+
 │
 ├── ReSubmitted_Amount_1
+
 │   ├── [Rule 8] Remove blank → Set = DENIED_AMOUNT
+
 │   └── RA_TRANSACTION_ID_1
+
 │       └── [Rule 9] Remove blank
+
 │   └── ReSubmission_Paid_Amount_1
+
 │           └── [Rule 10] set >= ReSubmitted_Amount_1 
+
 │   └── RESUBMISSION_DENIED_AMOUNT_RA_1
+
 │           ├── [Rule 11] = ReSubmitted_Amount_1 - ReSubmission_Paid_Amount_1
+
 │           └── Remove if zero
+
 │
 ├── ReSubmitted_Amount2
+
 │   ├── [Rule 12] Remove blank → Set = RESUBMISSION_DENIED_AMOUNT_RA_1
+
 │   └── RA_TRANSACTION_ID_2
+
 │       └── [Rule 13] Remove blank
+
 │   └── ReSubmission_Paid_Amount2
+
 │       ├── [Rule 14] If > ReSubmitted_Amount2 → Set = ReSubmitted_Amount2
+
 │       └── RESUBMISSION_DENIED_AMOUNT_RA_2
+
 │           ├── [Rule 15] = ReSubmitted_Amount2 - ReSubmission_Paid_Amount2
+
 │           └── Remove if zero
 
 
