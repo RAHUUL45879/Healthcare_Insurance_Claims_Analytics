@@ -72,6 +72,7 @@ The focus is on analytics skills, workflow design, and reporting logic, not on r
 │   ├── [Rule 2] If value = 0 or blank → Delete all columns' values for that row
 
 │
+
 ├── PAYMENT_REFERENCE_NO
 
 │   ├── [Rule 3] Remove blank
@@ -79,6 +80,7 @@ The focus is on analytics skills, workflow design, and reporting logic, not on r
 │   ├── [Rule 4] If value = 0 or blank → Delete all columns' values for that row
 
 │
+
 ├── PAID_AMOUNT
 
 │   ├── [Rule 5] If > SUBMITTED_AMOUNT → Set = SUBMITTED_AMOUNT 
@@ -86,6 +88,7 @@ The focus is on analytics skills, workflow design, and reporting logic, not on r
 │   ├── [Rule 6] If blank → Replace with 0
 
 │
+
 ├── DENIED_AMOUNT
 
 │   ├── [Rule 7] = SUBMITTED_AMOUNT - PAID_AMOUNT
@@ -93,6 +96,7 @@ The focus is on analytics skills, workflow design, and reporting logic, not on r
 │   └── Filter if zero
 
 │
+
 ├── ReSubmitted_Amount_1
 
 │   ├── [Rule 8] Remove blank → Set = DENIED_AMOUNT
@@ -112,6 +116,7 @@ The focus is on analytics skills, workflow design, and reporting logic, not on r
 │           └── Remove if zero
 
 │
+
 ├── ReSubmitted_Amount2
 
 │   ├── [Rule 12] Remove blank → Set = RESUBMISSION_DENIED_AMOUNT_RA_1
