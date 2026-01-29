@@ -34,7 +34,7 @@ Excel Dashboards & Matrix Reports
         ▼
 Executive & Operational Insights
 
-[https://drive.google.com/file/d/1T4vnsvNpy-I6SAOOtVQhNfLGmaMdxl4l/view?usp=sharing](https://drive.google.com/drive/folders/1F1BPkEL-O11FGOOIOz_i7VKMlODGKxpP)
+https://drive.google.com/file/d/1T4vnsvNpy-I6SAOOtVQhNfLGmaMdxl4l/view?usp=drive_link
 
 
 ## 🔹 Dashboards & Reports
@@ -83,6 +83,7 @@ Executive & Operational Insights
 
 • Healthcare Operations Analytics
 
-[https://drive.google.com/file/d/159d3d_AUG47O0bAIIdL2YMTGDM7OoxjW/view?usp=sharing](https://drive.google.com/drive/folders/1F1BPkEL-O11FGOOIOz_i7VKMlODGKxpP)
+https://drive.google.com/file/d/1T4vnsvNpy-I6SAOOtVQhNfLGmaMdxl4l/view?usp=drive_link
+
 
 
