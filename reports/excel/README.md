@@ -34,7 +34,7 @@ Excel Dashboards & Matrix Reports
         ▼
 Executive & Operational Insights
 
-C:\Users\Admin\OneDrive\Documents\KPO Health\Project\Screen Record\Insurance SS
+[https://drive.google.com/file/d/1T4vnsvNpy-I6SAOOtVQhNfLGmaMdxl4l/view?usp=sharinghttps://drive.google.com/file/d/1T4vnsvNpy-I6SAOOtVQhNfLGmaMdxl4l/view?usp=sharing](https://drive.google.com/file/d/1T4vnsvNpy-I6SAOOtVQhNfLGmaMdxl4l/view?usp=sharing)
 
 
 ## 🔹 Dashboards & Reports
@@ -83,7 +83,8 @@ C:\Users\Admin\OneDrive\Documents\KPO Health\Project\Screen Record\Insurance SS
 
 • Healthcare Operations Analytics
 
-https://drive.google.com/file/d/1T4vnsvNpy-I6SAOOtVQhNfLGmaMdxl4l/view?usp=drive_link
+[https://drive.google.com/file/d/1T4vnsvNpy-I6SAOOtVQhNfLGmaMdxl4l/view?usp=drive_link](https://drive.google.com/file/d/159d3d_AUG47O0bAIIdL2YMTGDM7OoxjW/view?usp=sharing)
+
 
 
 
