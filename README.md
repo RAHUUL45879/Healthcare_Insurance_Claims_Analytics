@@ -140,4 +140,5 @@ The focus is on analytics skills, workflow design, and reporting logic, not on r
 
 ▶️ Click to watch the full dashboard walkthrough:
 
-[▶ Watch Dashboard Demo](https://drive.google.com/file/d/1_xr7_riQIxYIogNDLUjWVKtHkib2i62m/view?usp=drive_link))
+[▶ Watch Dashboard Demo]
+(https://docs.google.com/videos/d/1CEKkTpA2wVir05jsP3L56QJU-7Ir98-7LTKlYvcn5Rk/edit?pli=1&scene=id.p#scene=id.p))
